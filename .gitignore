@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.pyc
+dist/
+build/
+_decompile_parts/
+
+# 用户本地配置
+.charart_last_path
+.charart_recent
+.charart_presets.json

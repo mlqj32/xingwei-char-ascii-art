@@ -1,0 +1,502 @@
+{
+  "CHAR_STYLES": {
+    "默认": " .'`^\",:;Il!i><~+_-?][}{1)(|\\/tfjrxnuvczXYUJCLQ0OZmwqpdbkhao*#MW&8%B@$",
+    "简洁": " .:-=+*#%@",
+    "块状": " ░▒▓█",
+    "细腻": " .,'\"^~:;+*?[]()|/\\_-#%&@",
+    "线条": " ·'`|/\\-_=+*#",
+    "斜线": "  '/\\_|─│┌┐└┘",
+    "符号雨": "  0123456789@#$%&*",
+    "复古": "  .':;+*?[]()#",
+    "极简": "  ░█",
+    "高对比": "  ·*#█",
+    "格子": "  ─│┼├┤┬┴┌┐└┘",
+    "迷宫": "  ··│─┐┘┌└│─",
+    "二进制": "  01",
+    "字母": "  .aAbBcCdDeEfFgGhHiIjJkKlLmMnNoOpPqQrRsStTuUvVwWxXyYzZ",
+    "十六进制": " 0123456789ABCDEF",
+    "灰度级": " 0123456789",
+    "索引色": " 0123456789ABCDEF",
+    "位图": " ·█",
+    "RGB 通道": " RGBrgb ",
+    "像素字节": " 0123456789",
+    "4 位深度": " .'`^\",:;Il!i>#%",
+    "8 位灰度": " .:-=+*#%@",
+    "抖动": "  ░▒▓█",
+    "C语言": " .'`^\",:;Il!i><~+_-?][}{1)(|\\/tfjrxnuvczXYUJCLQ0OZmwqpdbkhao*#MW&8%B@$",
+    "Java": " .'`^\",:;Il!i><~+_-?][}{1)(|\\/tfjrxnuvczXYUJCLQ0OZmwqpdbkhao*#MW&8%B@$",
+    "C++": " .'`^\",:;Il!i><~+_-?][}{1)(|\\/tfjrxnuvczXYUJCLQ0OZmwqpdbkhao*#MW&8%B@$",
+    "Python": " .'`^\",:;Il!i><~+_-?][}{1)(|\\/tfjrxnuvczXYUJCLQ0OZmwqpdbkhao*#MW&8%B@$",
+    "C#": " .'`^\",:;Il!i><~+_-?][}{1)(|\\/tfjrxnuvczXYUJCLQ0OZmwqpdbkhao*#MW&8%B@$",
+    "汇编语言": " .'`^\",:;Il!i><~+_-?][}{1)(|\\/tfjrxnuvczXYUJCLQ0OZmwqpdbkhao*#MW&8%B@$"
+  },
+  "CODE_STYLES": [
+    "C语言",
+    "Java",
+    "C++",
+    "Python",
+    "C#",
+    "汇编语言"
+  ],
+  "EFFECTS": {
+    "正常": 0,
+    "反相": 1,
+    "高对比": 2
+  },
+  "I18N": {
+    "app_title": {
+      "zh": "星薇字符画",
+      "zh_TW": "星薇字元畫",
+      "en": "星薇字符画",
+      "ja": "星薇文字アート"
+    },
+    "btn_open": {
+      "zh": "🖼️ 打开图片",
+      "zh_TW": "🖼️ 開啟圖片",
+      "en": "🖼️ Open Image",
+      "ja": "🖼️ 画像を開く"
+    },
+    "btn_reset": {
+      "zh": "🔄 恢复默认",
+      "zh_TW": "🔄 恢復預設",
+      "en": "🔄 Reset Size",
+      "ja": "🔄 サイズリセット"
+    },
+    "btn_copy": {
+      "zh": "📋 复制字符画",
+      "zh_TW": "📋 複製字元畫",
+      "en": "📋 Copy Art",
+      "ja": "📋 コピー"
+    },
+    "btn_original": {
+      "zh": "👁️ 显示原图",
+      "zh_TW": "👁️ 顯示原圖",
+      "en": "👁️ Show Original",
+      "ja": "👁️ 原図表示"
+    },
+    "btn_export_txt": {
+      "zh": "📄 导出 TXT",
+      "zh_TW": "📄 匯出 TXT",
+      "en": "📄 Export TXT",
+      "ja": "📄 TXT 出力"
+    },
+    "btn_export_html": {
+      "zh": "🌐 导出 HTML",
+      "zh_TW": "🌐 匯出 HTML",
+      "en": "🌐 Export HTML",
+      "ja": "🌐 HTML 出力"
+    },
+    "btn_export_png": {
+      "zh": "🖼️ 导出 PNG",
+      "zh_TW": "🖼️ 匯出 PNG",
+      "en": "🖼️ Export PNG",
+      "ja": "🖼️ PNG 出力"
+    },
+    "btn_export_gif": {
+      "zh": "🎬 导出 GIF",
+      "zh_TW": "🎬 匯出 GIF",
+      "en": "🎬 Export GIF",
+      "ja": "🎬 GIF 出力"
+    },
+    "btn_batch": {
+      "zh": "📦 批量导出",
+      "zh_TW": "📦 批次匯出",
+      "en": "📦 Batch Export",
+      "ja": "📦 一括出力"
+    },
+    "btn_follow_author": {
+      "zh": "❤️ 关注作者",
+      "zh_TW": "❤️ 關注作者",
+      "en": "❤️ Follow Author",
+      "ja": "❤️ 作者をフォロー"
+    },
+    "disclaimer": {
+      "zh": "本工具仅供学习与娱乐，生成内容与作者无关；使用本软件即表示您同意自行承担使用风险。",
+      "zh_TW": "本工具僅供學習與娛樂，生成內容與作者無關；使用本軟體即表示您同意自行承擔使用風險。",
+      "en": "This tool is for learning and entertainment only. Generated content is not affiliated with the author; use at your own risk.",
+      "ja": "本ツールは学習・娯楽目的です。生成内容は作者と無関係です。ご利用は自己責任でお願いします。"
+    },
+    "lbl_size_preset": {
+      "zh": "📐 预设尺寸:",
+      "zh_TW": "📐 預設尺寸:",
+      "en": "📐 Size:",
+      "ja": "📐 サイズ:"
+    },
+    "lbl_width": {
+      "zh": "宽:",
+      "zh_TW": "寬:",
+      "en": "W:",
+      "ja": "幅:"
+    },
+    "lbl_height": {
+      "zh": "高:",
+      "zh_TW": "高:",
+      "en": "H:",
+      "ja": "高:"
+    },
+    "lbl_transparent": {
+      "zh": "🎨 透明背景:",
+      "zh_TW": "🎨 透明背景:",
+      "en": "🎨 Transparent:",
+      "ja": "🎨 透明:"
+    },
+    "lbl_export_bg": {
+      "zh": "导出底色:",
+      "zh_TW": "匯出底色:",
+      "en": "Export BG:",
+      "ja": "出力背景:"
+    },
+    "lbl_style": {
+      "zh": "✏️ 字符样式（点击选择）:",
+      "zh_TW": "✏️ 字元樣式（點擊選擇）:",
+      "en": "✏️ Style (click):",
+      "ja": "✏️ スタイル（クリック）:"
+    },
+    "lbl_effect": {
+      "zh": "✨ 效果（点击选择）:",
+      "zh_TW": "✨ 效果（點擊選擇）:",
+      "en": "✨ Effect (click):",
+      "ja": "✨ 効果（クリック）:"
+    },
+    "lbl_color_mode": {
+      "zh": "🎨 颜色模式",
+      "zh_TW": "🎨 顏色模式",
+      "en": "🎨 Color Mode",
+      "ja": "🎨 カラーモード"
+    },
+    "lbl_speed": {
+      "zh": "⏱️ 播放速度:",
+      "zh_TW": "⏱️ 播放速度:",
+      "en": "⏱️ Speed:",
+      "ja": "⏱️ 速度:"
+    },
+    "lbl_recent": {
+      "zh": "🕐 最近",
+      "zh_TW": "🕐 最近",
+      "en": "🕐 Recent",
+      "ja": "🕐 最近"
+    },
+    "lbl_preset": {
+      "zh": "📌 预设",
+      "zh_TW": "📌 預設",
+      "en": "📌 Presets",
+      "ja": "📌 プリセット"
+    },
+    "lbl_zoom": {
+      "zh": "🔍 显示缩放:",
+      "zh_TW": "🔍 顯示縮放:",
+      "en": "🔍 Zoom:",
+      "ja": "🔍 表示倍率:"
+    },
+    "title_art": {
+      "zh": "✨ 星薇字符画 ✦",
+      "zh_TW": "✨ 星薇字元畫 ✦",
+      "en": "✨ 星薇字符画 ✦",
+      "ja": "✨ 星薇文字アート ✦"
+    },
+    "foot_open": {
+      "zh": "打开图片以生成字符画（当前输出 %d×%d）",
+      "zh_TW": "開啟圖片以產生字元畫（目前輸出 %d×%d）",
+      "en": "Open an image to generate art (output %d×%d)",
+      "ja": "画像を開いて生成（出力 %d×%d）"
+    },
+    "foot_file": {
+      "zh": "%s — 输出 %d×%d",
+      "zh_TW": "%s — 輸出 %d×%d",
+      "en": "%s — %d×%d",
+      "ja": "%s — %d×%d"
+    },
+    "foot_anim": {
+      "zh": "%s (动态 %d 帧) — 输出 %d×%d",
+      "zh_TW": "%s (動態 %d 幀) — 輸出 %d×%d",
+      "en": "%s (%d frames) — %d×%d",
+      "ja": "%s (%d フレーム) — %d×%d"
+    },
+    "dialog_open": {
+      "zh": "选择图片",
+      "zh_TW": "選擇圖片",
+      "en": "Select Image",
+      "ja": "画像を選択"
+    },
+    "dialog_export_txt": {
+      "zh": "导出字符画为 TXT",
+      "zh_TW": "匯出字元畫為 TXT",
+      "en": "Export as TXT",
+      "ja": "TXT として保存"
+    },
+    "dialog_export_html": {
+      "zh": "导出字符画为 HTML",
+      "zh_TW": "匯出字元畫為 HTML",
+      "en": "Export as HTML",
+      "ja": "HTML として保存"
+    },
+    "dialog_export_png": {
+      "zh": "导出字符画为 PNG",
+      "zh_TW": "匯出字元畫為 PNG",
+      "en": "Export as PNG",
+      "ja": "PNG として保存"
+    },
+    "dialog_export_gif": {
+      "zh": "导出字符画为 GIF（含全部帧）",
+      "zh_TW": "匯出字元畫為 GIF（含全部幀）",
+      "en": "Export as GIF (all frames)",
+      "ja": "GIF として保存（全フレーム）"
+    },
+    "dialog_batch_files": {
+      "zh": "选择多张图片",
+      "zh_TW": "選擇多張圖片",
+      "en": "Select Images",
+      "ja": "画像を複数選択"
+    },
+    "dialog_batch_dir": {
+      "zh": "选择导出目录",
+      "zh_TW": "選擇匯出目錄",
+      "en": "Select Export Folder",
+      "ja": "出力フォルダを選択"
+    },
+    "dialog_save_preset": {
+      "zh": "保存预设",
+      "zh_TW": "儲存預設",
+      "en": "Save Preset",
+      "ja": "プリセット保存"
+    },
+    "preset_name_prompt": {
+      "zh": "预设名称：",
+      "zh_TW": "預設名稱：",
+      "en": "Preset name:",
+      "ja": "プリセット名："
+    },
+    "preset_save": {
+      "zh": "💾 保存当前…",
+      "zh_TW": "💾 儲存目前…",
+      "en": "💾 Save current…",
+      "ja": "💾 現在を保存…"
+    },
+    "filter_images": {
+      "zh": "图片 (PNG/JPG/GIF/WebP/BMP 等)",
+      "zh_TW": "圖片 (PNG/JPG/GIF/WebP/BMP 等)",
+      "en": "Images (PNG/JPG/GIF/WebP/BMP)",
+      "ja": "画像 (PNG/JPG/GIF/WebP/BMP)"
+    },
+    "filter_all": {
+      "zh": "所有文件",
+      "zh_TW": "所有檔案",
+      "en": "All files",
+      "ja": "すべてのファイル"
+    },
+    "filter_txt": {
+      "zh": "文本文件",
+      "zh_TW": "文字檔案",
+      "en": "Text files",
+      "ja": "テキスト"
+    },
+    "filter_html": {
+      "zh": "HTML 文件",
+      "zh_TW": "HTML 檔案",
+      "en": "HTML files",
+      "ja": "HTML"
+    },
+    "filter_png": {
+      "zh": "PNG 图像",
+      "zh_TW": "PNG 影像",
+      "en": "PNG image",
+      "ja": "PNG"
+    },
+    "filter_gif": {
+      "zh": "GIF 图像",
+      "zh_TW": "GIF 影像",
+      "en": "GIF image",
+      "ja": "GIF"
+    },
+    "msg_original_first": {
+      "zh": "请先「打开图片」选择一张图片",
+      "zh_TW": "請先「開啟圖片」選擇一張圖片",
+      "en": "Please open an image first.",
+      "ja": "先に画像を開いてください。"
+    },
+    "msg_error_load": {
+      "zh": "无法加载原图: ",
+      "zh_TW": "無法載入原圖: ",
+      "en": "Failed to load image: ",
+      "ja": "画像の読み込みに失敗: "
+    },
+    "msg_error_file": {
+      "zh": "文件不存在或无法读取",
+      "zh_TW": "檔案不存在或無法讀取",
+      "en": "File not found or unreadable",
+      "ja": "ファイルが見つからないか読めません"
+    },
+    "msg_error_gen": {
+      "zh": "无法生成字符画",
+      "zh_TW": "無法產生字元畫",
+      "en": "Failed to generate art",
+      "ja": "生成に失敗しました"
+    },
+    "foot_loading": {
+      "zh": "生成中…",
+      "zh_TW": "產生中…",
+      "en": "Generating…",
+      "ja": "生成中…"
+    },
+    "progress_loading": {
+      "zh": "生成字符画",
+      "zh_TW": "產生字元畫",
+      "en": "Generating art",
+      "ja": "生成中"
+    },
+    "progress_frame": {
+      "zh": "帧 %d / %d",
+      "zh_TW": "幀 %d / %d",
+      "en": "Frame %d / %d",
+      "ja": "%d / %d フレーム"
+    },
+    "msg_copied_html": {
+      "zh": "已复制为彩色 HTML 到剪贴板",
+      "zh_TW": "已複製為彩色 HTML 到剪貼簿",
+      "en": "Copied as colored HTML",
+      "ja": "カラー HTML をコピーしました"
+    },
+    "msg_copied": {
+      "zh": "已复制到剪贴板",
+      "zh_TW": "已複製到剪貼簿",
+      "en": "Copied to clipboard",
+      "ja": "クリップボードにコピーしました"
+    },
+    "msg_nothing_copy": {
+      "zh": "当前无内容可复制",
+      "zh_TW": "目前無內容可複製",
+      "en": "Nothing to copy",
+      "ja": "コピーする内容がありません"
+    },
+    "msg_nothing_export": {
+      "zh": "当前无内容可导出",
+      "zh_TW": "目前無內容可匯出",
+      "en": "Nothing to export",
+      "ja": "出力する内容がありません"
+    },
+    "msg_export_ok": {
+      "zh": "已保存到：\n",
+      "zh_TW": "已儲存到：\n",
+      "en": "Saved to:\n",
+      "ja": "保存先:\n"
+    },
+    "msg_export_fail": {
+      "zh": "保存失败：\n",
+      "zh_TW": "儲存失敗：\n",
+      "en": "Save failed:\n",
+      "ja": "保存に失敗:\n"
+    },
+    "msg_no_color": {
+      "zh": "当前无彩色内容可导出（请先开启颜色模式并生成字符画）",
+      "zh_TW": "目前無彩色內容可匯出（請先開啟顏色模式並產生字元畫）",
+      "en": "No colored content. Enable Color Mode and generate first.",
+      "ja": "カラーがありません。カラーモードをオンにして生成してください。"
+    },
+    "msg_batch_done": {
+      "zh": "完成：成功 %d，失败 %d",
+      "zh_TW": "完成：成功 %d，失敗 %d",
+      "en": "Done: %d ok, %d failed",
+      "ja": "完了: 成功 %d、失敗 %d"
+    },
+    "msg_preset_saved": {
+      "zh": "已保存预设：「%s」",
+      "zh_TW": "已儲存預設：「%s」",
+      "en": "Preset saved: \"%s\"",
+      "ja": "プリセットを保存しました:「%s」"
+    },
+    "preset_delete": {
+      "zh": "删除预设…",
+      "zh_TW": "刪除預設…",
+      "en": "Delete preset…",
+      "ja": "プリセット削除…"
+    },
+    "msg_preset_deleted": {
+      "zh": "已删除预设：「%s」",
+      "zh_TW": "已刪除預設：「%s」",
+      "en": "Preset deleted: \"%s\"",
+      "ja": "プリセットを削除しました:「%s」"
+    },
+    "msg_no_preset": {
+      "zh": "当前没有预设可删除",
+      "zh_TW": "目前沒有預設可刪除",
+      "en": "No preset to delete",
+      "ja": "削除するプリセットがありません"
+    },
+    "msg_select_preset": {
+      "zh": "请选择要删除的预设",
+      "zh_TW": "請選擇要刪除的預設",
+      "en": "Please select a preset to delete",
+      "ja": "削除するプリセットを選択してください"
+    },
+    "drop_hint": {
+      "zh": "松开以打开图片",
+      "zh_TW": "鬆開以開啟圖片",
+      "en": "Release to open image",
+      "ja": "離して画像を開く"
+    },
+    "original_title": {
+      "zh": "原图 · ",
+      "zh_TW": "原圖 · ",
+      "en": "Original · ",
+      "ja": "原図 · "
+    },
+    "lang_zh": {
+      "zh": "🇨🇳 简体中文",
+      "zh_TW": "🇨🇳 简体中文",
+      "en": "🇨🇳 简体中文",
+      "ja": "🇨🇳 简体中文"
+    },
+    "lang_zh_TW": {
+      "zh": "🇹🇼 繁體中文",
+      "zh_TW": "🇹🇼 繁體中文",
+      "en": "🇹🇼 繁體中文",
+      "ja": "🇹🇼 繁體中文"
+    },
+    "lang_en": {
+      "zh": "🇺🇸 English",
+      "zh_TW": "🇺🇸 English",
+      "en": "🇺🇸 English",
+      "ja": "🇺🇸 English"
+    },
+    "lang_ja": {
+      "zh": "🇯🇵 日本語",
+      "zh_TW": "🇯🇵 日本語",
+      "en": "🇯🇵 日本語",
+      "ja": "🇯🇵 日本語"
+    },
+    "opt_transparent": {
+      "zh": "透明",
+      "zh_TW": "透明",
+      "en": "Transparent",
+      "ja": "透明"
+    },
+    "opt_black": {
+      "zh": "黑",
+      "zh_TW": "黑",
+      "en": "Black",
+      "ja": "黒"
+    },
+    "opt_white": {
+      "zh": "白",
+      "zh_TW": "白",
+      "en": "White",
+      "ja": "白"
+    },
+    "opt_gray": {
+      "zh": "灰",
+      "zh_TW": "灰",
+      "en": "Gray",
+      "ja": "灰"
+    },
+    "opt_preview_bg": {
+      "zh": "预览区",
+      "zh_TW": "預覽區",
+      "en": "Preview",
+      "ja": "プレビュー"
+    }
+  },
+  "HAS_DND": true,
+  "ALPHA_THRESHOLD": 30,
+  "_CELL_W": 8,
+  "_CELL_H": 14
+}

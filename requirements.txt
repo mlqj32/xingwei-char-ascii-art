@@ -1,0 +1,6 @@
+Pillow>=10.0.0
+PyYAML>=6.0
+numpy>=2.0.0
+tkinterdnd2>=0.4.0
+windnd>=1.0.0
+pywin32>=306
