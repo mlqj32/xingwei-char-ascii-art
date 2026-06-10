@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""显示/填充相关纯函数（对照 charart.pyc line 806-849）。"""
+"""画布居中填充与动画停止。"""
 from __future__ import annotations
 
 from typing import Callable

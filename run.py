@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""Bootstrap launcher for recovered Star CharArt project."""
+"""星薇字符画启动器。"""
 from __future__ import annotations
 
 import os

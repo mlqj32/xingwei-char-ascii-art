@@ -1,8 +1,5 @@
 # -*- coding: utf-8 -*-
-"""
-charart.pyc run_gui (line 421-2013) 的完整原生 Python 实现。
-入口：run_gui_native()
-"""
+"""星薇字符画 — Tkinter GUI 主界面。"""
 from __future__ import annotations
 
 import os

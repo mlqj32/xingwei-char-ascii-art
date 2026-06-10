@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""预设读写与菜单（对照 charart.py line 1420-1747）。"""
+"""预设读写与菜单。"""
 from __future__ import annotations
 
 from typing import Callable

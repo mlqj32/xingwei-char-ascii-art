@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""预览窗口：原图 / 动图预览（line 660-791）。"""
+"""原图预览窗口。"""
 from __future__ import annotations
 
 import os

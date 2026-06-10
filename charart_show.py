@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""主画布显示：show_code / show_padded / play_next_frame（line 852-927）。"""
+"""主画布显示与动图帧播放。"""
 from __future__ import annotations
 
 from typing import Any, Callable

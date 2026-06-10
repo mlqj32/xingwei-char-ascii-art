@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""导出与剪贴板（对照 charart.py line 1181-1333）。"""
+"""导出与剪贴板。"""
 from __future__ import annotations
 
 from typing import Any, Callable

@@ -20,9 +20,9 @@ English: Turn images into proportional ASCII / character art with a Tkinter GUI,
 
 ## 快速开始
 
-### 方式一：直接运行（开发）
+### 方式一：从源码运行
 
-需要 **Python 3.13+**（与打包版本一致）和 **Windows**（拖拽推荐 tkinterdnd2）。
+需要 **Python 3.13+** 与 **Windows**（拖拽推荐 tkinterdnd2）。
 
 ```bat
 run-dev.bat
@@ -37,7 +37,7 @@ pip install -r requirements.txt
 python run.py
 ```
 
-### 方式二：自行打包 exe
+### 方式二：打包为 Windows exe
 
 ```bat
 build.bat
@@ -51,7 +51,7 @@ build.bat
 python charart.py --cli
 ```
 
-需在程序目录放置 `萝薇日常.png` 或使用 `charart.py` 内默认示例路径。
+将示例图片放在程序目录，文件名为 `萝薇日常.png`。
 
 ## 快捷键
 
@@ -67,9 +67,9 @@ python charart.py --cli
 
 ```
 ├── charart.py              # 统一入口（GUI / CLI）
-├── charart_run_gui.py      # 原生 GUI 实现
+├── charart_run_gui.py      # GUI 主界面
 ├── charart_core.py         # 字符画生成算法
-├── charart_gui.py          # 刷新、打开图片、配置 IO
+├── charart_gui.py          # 刷新、打开图片、配置读写
 ├── charart_show.py         # 画布显示与动图帧
 ├── charart_export.py       # 导出与复制
 ├── charart_preview.py      # 原图预览
@@ -78,9 +78,10 @@ python charart.py --cli
 ├── build.bat / charart.spec # PyInstaller 打包
 ├── requirements.txt
 ├── tools/
-│   ├── parity_check.py     # 算法与原版对照
+│   ├── parity_check.py     # 核心算法自检
 │   └── verify_native.py    # 模块导入冒烟测试
-└── docs/                   # 符号表、对齐状态等
+└── docs/
+    └── module_constants.json  # 界面文案
 ```
 
 ## 配置与数据文件
@@ -93,21 +94,12 @@ python charart.py --cli
 | `.charart_last_path` | 上次打开的图片 |
 | `.charart_presets.json` | 用户预设 |
 
-## 开发与验收
+## 开发
 
 ```bat
 python tools\verify_native.py
 python tools\parity_check.py
 ```
-
-可选严格对照模式（需本地 `charart.pyc` 基准字节码）：
-
-```bat
-set CHARART_STRICT=1
-run-strict.bat
-```
-
-日常开发与发布 **不依赖** `charart.pyc`，默认走纯 Python 实现 `charart_run_gui.run_gui_native()`。
 
 ## 依赖
 
@@ -120,11 +112,6 @@ run-strict.bat
 
 - B 站：[space.bilibili.com/259516939](https://space.bilibili.com/259516939)
 - Steam《萝薇日记》：[store.steampowered.com/app/4448620](https://store.steampowered.com/app/4448620/_/)
-
-## 恢复说明
-
-本项目由 PyInstaller 发布的 exe 逆向恢复为可编辑 Python 工程。  
-技术细节见 [RECOVERY.md](RECOVERY.md)、[ALIGNMENT.md](ALIGNMENT.md)。
 
 ## License
 

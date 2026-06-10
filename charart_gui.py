@@ -1,13 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-从 charart.pyc 反汇编还原的 GUI 逻辑（charart.py line 421+）。
-
-完整 Tk 界面布局（工具栏/导出/动画等，约 421-2015 行）仍在 charart.pyc；
-本文件还原：
-  - 配置读写（recent / presets / last_path）
-  - open_image 流程（632-658）
-  - refresh_art 核心流程（996-1175）
-  - run_gui 入口：注入还原算法后调用原版 GUI
+星薇字符画 GUI 逻辑：配置读写、打开图片、刷新字符画。
 """
 from __future__ import annotations
 
@@ -582,7 +575,7 @@ def _patch_core(mod) -> None:
 def run_gui(*, strict: bool = False) -> None:
     """
     启动 GUI。
-    strict=True：加载 charart.pyc 原版（验收基准）。
+    strict=True：内部开发选项（可选）。
     默认：charart_run_gui.run_gui_native() 纯 Python 实现。
     """
     if strict:

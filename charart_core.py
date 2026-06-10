@@ -1,8 +1,5 @@
 # -*- coding: utf-8 -*-
-"""
-从 charart.pyc 反汇编还原的核心算法（Python 3.13 字节码对照）。
-原文件 charart.py 约 line 313-418。
-"""
+"""星薇字符画 — 字符画生成核心算法。"""
 from __future__ import annotations
 
 import os
@@ -12,7 +9,7 @@ try:
 except ImportError as e:
     raise SystemExit("需要安装 Pillow: pip install Pillow") from e
 
-# 自模块常量（与 charart.pyc 一致）
+# 模块常量
 _CELL_W = 8
 _CELL_H = 14
 ALPHA_THRESHOLD = 30

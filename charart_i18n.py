@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""I18N 与模块级常量（对照 charart.pyc line 37-223）。"""
+"""多语言文案与模块常量。"""
 from __future__ import annotations
 
 import json

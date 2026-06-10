@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""run_gui 辅助闭包 → 可读 .py 逻辑（进度条、滚动条、批量导出、预设删除、i18n 刷新等）。"""
+"""GUI 辅助：进度条、滚动条、批量导出、界面语言等。"""
 from __future__ import annotations
 
 import os

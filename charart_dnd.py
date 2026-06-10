@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""拖拽相关（对照 charart.py line 1864-1982）。"""
+"""拖拽打开图片。"""
 from __future__ import annotations
 
 import os

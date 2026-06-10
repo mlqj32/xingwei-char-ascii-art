@@ -9,3 +9,17 @@ _decompile_parts/
 .charart_last_path
 .charart_recent
 .charart_presets.json
+
+# 本地开发产物（不上传）
+charart.pyc
+docs/charart_disassembly.txt
+docs/charart_recovered.py
+docs/charart_pycdc_partial.py
+docs/charart_constants_dump.py
+docs/charart_symbols.txt
+docs/alignment_status.json
+RECOVERY.md
+ALIGNMENT.md
+run-strict.bat
+tools/alignment_status.py
+charart_hooks.py

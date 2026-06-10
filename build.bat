@@ -19,7 +19,7 @@ if errorlevel 1 (
 
 python tools\parity_check.py
 if errorlevel 1 (
-  echo [WARN] parity_check failed — 若无 charart.pyc 可忽略
+  echo [WARN] parity_check failed
 )
 
 echo.

@@ -1,8 +1,9 @@
 # -*- coding: utf-8 -*-
 """
-星薇字符画 — 统一源码入口（完全对齐目标）。
+星薇字符画 — 统一入口。
 
-纯 Python 实现：charart_run_gui.run_gui_native()；strict 模式仍可加载 charart.pyc 对照。
+GUI：charart_run_gui.run_gui_native()
+CLI：python charart.py --cli
 """
 from __future__ import annotations
 
