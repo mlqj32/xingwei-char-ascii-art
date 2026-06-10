@@ -7,6 +7,20 @@ English: Turn images into proportional ASCII / character art with a Tkinter GUI,
 
 ---
 
+## 界面预览
+
+| 彩色字符画 | 动图 GIF（7 帧） |
+| :---: | :---: |
+| ![彩色字符画](image/1.png) | ![动图 GIF](image/2.png) |
+| 开启颜色模式，还原图片色彩 | 支持动图播放、原图预览与速度调节 |
+
+| 符号雨样式 | 默认字符样式 |
+| :---: | :---: |
+| ![符号雨样式](image/3.png) | ![默认字符样式](image/4.png) |
+| 多种字符集可选 | 经典黑白字符画效果 |
+
+---
+
 ## 功能特性
 
 - 打开或拖拽图片，实时生成字符画
